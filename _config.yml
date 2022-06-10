@@ -6,32 +6,32 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Nakul Pacheriwala
+title: Data Scientist / Machine Learning Engineer
+email: nakool24@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +1 (469) 943 7674
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: 
+github_username:  Nakul24-1
+stackoverflow_username: "10285756"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: nakul-pacheriwala
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -53,12 +53,8 @@ additional_links:
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Highly skillful and meticulous honours graduate from NMIMS University, currently pursuing masters in computer science at New York University.Experienced in developing and testing prediction models, while also visualizing and explaining the results via interactive dashboards.
+  Looking to solve business problems using data-driven models which would help the managament make better decisions 
 
 content:
   - title: Projects # Title for the section
@@ -67,20 +63,20 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Mental Health Analysis
+        link: https://github.com/Nakul24-1/Mental-Health-Cloud
+        link_text: Github page for project
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Nakul24-1/Mental-Health-Cloud
         quote: >
-          Short overview of the project (optional)
+          Short overview of the project
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+          Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
+          Hosted the streamlit application as containers using ECS and Load Balancer which was secured using AWS Cognito 
+          Built a pipeline that takes user input from front-end and outputs the prediction in less than 1 ms.   
   - title: Experience
     layout: list
     content:
