@@ -32,11 +32,12 @@ linkedin_username: nakul-pacheriwala
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
+site.huggingface: https://huggingface.co/Nakul24
 
 # Additional icon links
 additional_links:
 - title: Link name
-  icon: 🤗
+  icon: 
   # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: https://huggingface.co/Nakul24
 # - title: another link
