@@ -36,8 +36,9 @@ linkedin_username: nakul-pacheriwala
 # Additional icon links
 additional_links:
 - title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  icon: fab fa-face-smiling-hands
+  # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://huggingface.co/Nakul24
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -54,9 +55,16 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Highly skillful and meticulous honours graduate from NMIMS University, currently pursuing masters in computer science at New York University.
   Experienced in developing and testing prediction models, while also visualizing and explaining the results via interactive dashboards.
-  Looking to solve business problems using data-driven models which would help the managament make better decisions. 
+  Looking to solve business problems using data-driven models which would help the managament make better decisions.
+
+
 
 content:
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork* 
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -76,7 +84,6 @@ content:
           - Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
           - Hosted the streamlit application on AWS as containers using ECS and Load Balancer which was secured using AWS Cognito 
           - Built a pipeline that takes user input from front-end and outputs the prediction in less than 1 ms
-    content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -126,13 +133,6 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
