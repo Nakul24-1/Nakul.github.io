@@ -65,27 +65,29 @@ content:
     layout: list
     content:
       - layout: left
-        quote: >
+        title: >
           Programming Languages : 
         description: |
           R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
       - layout: left
-        quote: >
+        title: >
           Web Development : 
         description: |
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
       - layout: left
-        quote: >
+        title: >
           Machine Learning Tecnologies : 
         description: |
           Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
           PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
-        quote: >
+      - layout: left
+        title: >
           Libraries and API:  
         description: |
           Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
           Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
-        quote: >
+      - layout: left
+        title: >
           Other Skills  :  
         description: |
           MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
