@@ -69,10 +69,12 @@ content:
           Programming Languages : 
         description: |
           R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
+      - layout: left
         quote: >
           Web Development : 
         description: |
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
+      - layout: left
         quote: >
           Machine Learning Tecnologies : 
         description: |
