@@ -36,7 +36,7 @@ linkedin_username: nakul-pacheriwala
 # Additional icon links
 additional_links:
 - title: Link name
-  icon: fa-regular fa-face-smiling-hands
+  icon: 🤗
   # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: https://huggingface.co/Nakul24
 # - title: another link
