@@ -141,8 +141,7 @@ content:
           - Developed a chatbot which recommends restaurant based on user inputs like preferred cuisine and locality 
           - Collected restaurant data from Yelp API and stored it in DynamoDB and Open Search (Elastic Search) 
           - The recommendation system sends an E-Mail using SNS suggesting 5 restaurants which satisfy the user preferences
-
-        - layout: left
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Personality Prediction using Deep Learning
@@ -159,7 +158,7 @@ content:
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+                        # other value (or no value) means no border will be displayed
         title: Facial Expression Recognition with Keras
 
         additional_links:
