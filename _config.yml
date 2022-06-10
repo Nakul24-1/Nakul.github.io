@@ -64,29 +64,30 @@ content:
   - title: Technical Skills
     layout: list
     content:
-      quote: >
-        Programming Languages : 
-      description: |
-        R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
-      quote: >
-        Web Development : 
-      description: |
-        Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
-      quote: >
-        Machine Learning Tecnologies : 
-      description: |
-        Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
-        PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
-      quote: >
-        Libraries and API:  
-      description: |
-        Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
-        Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
-      quote: >
-        Other Skills  :  
-      description: |
-        MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
-        Probability and Statistics , Big Data , MongoDb , Data visualization , EDA , Analytics
+      - layout: left
+        quote: >
+          Programming Languages : 
+        description: |
+          R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
+        quote: >
+          Web Development : 
+        description: |
+          Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
+        quote: >
+          Machine Learning Tecnologies : 
+        description: |
+          Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
+          PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
+        quote: >
+          Libraries and API:  
+        description: |
+          Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
+          Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
+        quote: >
+          Other Skills  :  
+        description: |
+          MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
+          Probability and Statistics , Big Data , MongoDb , Data visualization , EDA , Analytics
 
 
   - title: Projects # Title for the section
@@ -186,7 +187,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: center
+      - layout: left
         title: New York University, Tandon School of Engineering, New York
         sub_title: Masters of Science, Computer Science
         caption: 2021 - 2023
@@ -194,7 +195,7 @@ content:
           Relevant Courses
         description: | # this will include new lines to allow paragraphs
           Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization 
-      - layout: center
+      - layout: left
         title: Narsee Monjee Institute of Management Studies (NMIMS)
         sub_title: BTech (Hons), Computer Engineering
         caption: 2017 - 2021
