@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Technical Skills
-    layout: text
+    layout: list
     content:
       quote: >
         Programming Languages : 
@@ -175,7 +175,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Dhandhania Infotech
         sub_title: Data Intern
         caption: March 2020 - March 2021
@@ -186,7 +186,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: center
         title: New York University, Tandon School of Engineering, New York
         sub_title: Masters of Science, Computer Science
         caption: 2021 - 2023
@@ -194,7 +194,7 @@ content:
           Relevant Courses
         description: | # this will include new lines to allow paragraphs
           Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization 
-      - layout: top-right
+      - layout: center
         title: Narsee Monjee Institute of Management Studies (NMIMS)
         sub_title: BTech (Hons), Computer Engineering
         caption: 2017 - 2021
