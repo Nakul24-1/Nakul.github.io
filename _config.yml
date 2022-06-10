@@ -32,7 +32,7 @@ linkedin_username: nakul-pacheriwala
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
-huggingface: https://huggingface.co/Nakul24
+#huggingface: https://huggingface.co/Nakul24
 
 # Additional icon links
 additional_links:
@@ -61,10 +61,33 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: Skills
+  - title: Technical Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork* 
+    content:
+      quote: >
+        Programming Languages : 
+      description: |
+        R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
+      quote: >
+        Web Development : 
+      description: |
+        Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
+      quote: >
+        Machine Learning Tecnologies : 
+      description: |
+        Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
+        PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
+      quote: >
+        Libraries and API:  
+      description: |
+        Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
+        Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
+      quote: >
+        Other Skills  :  
+      description: |
+        MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
+        Probability and Statistics , Big Data , MongoDb , Data visualization , EDA , Analytics
+
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -101,6 +124,53 @@ content:
           - Developed a RoBERTa and SpanBERT based question answering models (Available on Huggingface) to extract the emotion cause in each statement 
           - Performed exploratory data analysis in python to improve the explanation model by eliminating issues like class imbalance 
           - Presented the models as an alternative to SHAP and was proven better statistically using metrics like IoU
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Chatbot Dining Concierge 
+        link: https://github.com/Nakul24-1/Mental-Health-Cloud
+        link_text: Github page for project
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+        quote: >
+          Short overview of the project
+        description: | # this will include new lines to allow paragraphs
+          - Developed a chatbot which recommends restaurant based on user inputs like preferred cuisine and locality 
+          - Collected restaurant data from Yelp API and stored it in DynamoDB and Open Search (Elastic Search) 
+          - The recommendation system sends an E-Mail using SNS suggesting 5 restaurants which satisfy the user preferences
+
+        - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Personality Prediction using Deep Learning
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+        quote: >
+          Short overview of the project
+        description: | # this will include new lines to allow paragraphs
+          - Developed an application that uses Text and Audio/Video to analyze a person’s personality by applying transfer learning 
+          - Tested the model on Essays dataset and achieved the best accuracy till date along with real-world data collected via survey 
+          - Prepared a Dashboard to visualize the prediction and present analysis by describing each chart to explain the AI results
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Facial Expression Recognition with Keras
+
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+        quote: >
+          Short overview of the project
+        description: | # this will include new lines to allow paragraphs
+          - Detected and Classified faces into 7 different categories like Angry, Sad, Fear etc using CNN and OpenCV 
+          - Developed a webpage using Flask to use webcam feed as input and generate live output serving the prediction of the emotion in real time on the web interface
 
 
   - title: Experience
