@@ -110,11 +110,10 @@ content:
         title: Dhandhania Infotech
         sub_title: Data Intern
         caption: March 2020 - March 2021
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Incorporated Twitter and cover letter data for personality analysis of job applicants to aid human resources department in 
+          elimination of unsuitable candidates based on personality traits 
+
   - title: Education
     layout: list
     content:
@@ -123,20 +122,21 @@ content:
         sub_title: Masters of Science, Computer Science
         caption: 2021 - 2023
         quote: >
-          Short institution or course description (optional)
+          Relevant Courses
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization 
       - layout: top-right
-        title: Narsee Monjee Institute of Management Studies (NMIMS
+        title: Narsee Monjee Institute of Management Studies (NMIMS)
         sub_title: BTech (Hons), Computer Engineering
         caption: 2017 - 2021
         quote: >
-          Short institution or course description (optional)
+          Relevant Courses
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Probability and Statistics , Business Visualization , Human Resource Management , Data Mining ,
+          Predictive Modelling , Artificial Intelligence , Operations Research , Image Processing , and Database Management Systems 
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
