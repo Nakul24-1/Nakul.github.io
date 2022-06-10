@@ -32,7 +32,7 @@ linkedin_username: nakul-pacheriwala
 #youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
-site.huggingface: https://huggingface.co/Nakul24
+huggingface: https://huggingface.co/Nakul24
 
 # Additional icon links
 additional_links:
