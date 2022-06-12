@@ -54,9 +54,9 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Highly skillful and meticulous honours graduate from NMIMS University, currently pursuing masters in computer science at New York University.
+  Versatile honors graduate from NMIMS University, currently pursuing masters in computer science at New York University.
   Experienced in developing and testing prediction models, while also visualizing and explaining the results via interactive dashboards.
-  Looking to solve business problems using data-driven models which would help the managament make better decisions.
+  Looking to solve business problems using data-driven models which would help the management make informed decisions.
 
 
 
@@ -76,7 +76,7 @@ content:
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
       - layout: left
         title: >
-          Machine Learning Tecnologies : 
+          Machine Learning Technologies : 
         description: |
           Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
           PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
@@ -112,7 +112,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
           - Hosted the streamlit application on AWS as containers using ECS and Load Balancer which was secured using AWS Cognito 
-          - Built a pipeline that takes user input from front-end and outputs the prediction in less than 1 ms
+          - Built a pipeline that takes user input from front-end and generates the predicted output in less than 1 ms
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
