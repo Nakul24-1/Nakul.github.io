@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub 
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -75,19 +75,19 @@ content:
         description: |
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
       - layout: left
-        title: >
+        sub_title: >
           Machine Learning Technologies : 
         description: |
           Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
           PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
       - layout: left
-        title: >
+        sub_title: >
           Libraries and API:  
         description: |
           Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
           Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
       - layout: left
-        title: >
+        sub_title: >
           Other Skills  :  
         description: |
           MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
@@ -104,7 +104,7 @@ content:
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Github page for project 
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
         quote: >
@@ -117,12 +117,12 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Emotion Cause Recognition
-        link: https://github.com/Nakul24-1/Mental-Health-Cloud
-        link_text: Github page for project
+        link: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
+        link_text: Analysis-of-Emotion-Cause
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Analysis-of-Emotion-Cause
             icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+            url: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
         quote: >
           Short overview of the project
         description: | # this will include new lines to allow paragraphs
@@ -137,7 +137,7 @@ content:
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Github page for project 
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
         quote: >
@@ -151,13 +151,13 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Personality Prediction using Deep Learning
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Nakul24-1/Personality-Prediction 
             icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+            url: https://github.com/Nakul24-1/Personality-Prediction
         quote: >
           Short overview of the project
         description: | # this will include new lines to allow paragraphs
-          - Developed an application that uses Text and Audio/Video to analyze a person’s personality by applying transfer learning 
+          - Developed an application that uses Text and Audio/Video to analyze a person's personality by applying transfer learning 
           - Tested the model on Essays dataset and achieved the best accuracy till date along with real-world data collected via survey 
           - Prepared a Dashboard to visualize the prediction and present analysis by describing each chart to explain the AI results
 
@@ -167,7 +167,7 @@ content:
         title: Facial Expression Recognition with Keras
 
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Link Unavailable  
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
         quote: >
