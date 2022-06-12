@@ -65,12 +65,12 @@ content:
     layout: list
     content:
       - layout: left
-        title: >
+        sub_title: >
           Programming Languages : 
         description: |
           R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
       - layout: left
-        title: >
+        sub_title: >
           Web Development : 
         description: |
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
@@ -100,7 +100,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        sub_title: Mental Health Analysis
+        title: Mental Health Analysis
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
@@ -116,7 +116,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        sub_title: Emotion Cause Recognition
+        title: Emotion Cause Recognition
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
