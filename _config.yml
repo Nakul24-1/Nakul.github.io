@@ -107,8 +107,7 @@ content:
           - title:  Github page for project 
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        quote: >
-          Short overview of the project
+        
         description: | # this will include new lines to allow paragraphs
           - Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
           - Hosted the streamlit application on AWS as containers using ECS and Load Balancer which was secured using AWS Cognito 
@@ -123,8 +122,7 @@ content:
           - title:  Analysis-of-Emotion-Cause
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
-        quote: >
-          Short overview of the project
+        
         description: | # this will include new lines to allow paragraphs
           - Developed a RoBERTa and SpanBERT based question answering models (Available on Huggingface) to extract the emotion cause in each statement 
           - Performed exploratory data analysis in python to improve the explanation model by eliminating issues like class imbalance 
@@ -140,8 +138,7 @@ content:
           - title:  Github page for project 
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        quote: >
-          Short overview of the project
+        
         description: | # this will include new lines to allow paragraphs
           - Developed a chatbot which recommends restaurant based on user inputs like preferred cuisine and locality 
           - Collected restaurant data from Yelp API and stored it in DynamoDB and Open Search (Elastic Search) 
@@ -154,8 +151,7 @@ content:
           - title:  Nakul24-1/Personality-Prediction 
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Personality-Prediction
-        quote: >
-          Short overview of the project
+        
         description: | # this will include new lines to allow paragraphs
           - Developed an application that uses Text and Audio/Video to analyze a person's personality by applying transfer learning 
           - Tested the model on Essays dataset and achieved the best accuracy till date along with real-world data collected via survey 
@@ -170,8 +166,7 @@ content:
           - title:  Link Unavailable  
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        quote: >
-          Short overview of the project
+        
         description: | # this will include new lines to allow paragraphs
           - Detected and Classified faces into 7 different categories like Angry, Sad, Fear etc using CNN and OpenCV 
           - Developed a webpage using Flask to use webcam feed as input and generate live output serving the prediction of the emotion in real time on the web interface
