@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub 
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -19,8 +19,8 @@ phone: +1 (469) 943 7674
 darkmode: true
 
 # Social links
-#twitter_username: 
-github_username:  Nakul24-1
+#twitter_username:
+github_username: Nakul24-1
 stackoverflow_username: "10285756"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -36,10 +36,10 @@ linkedin_username: nakul-pacheriwala
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: 
-  # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: https://huggingface.co/Nakul24
+  - title: Huggingface
+    icon:
+    # icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    url: https://huggingface.co/Nakul24
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -58,119 +58,137 @@ about_content: | # this will include new lines to allow paragraphs
   Experienced in developing and testing prediction models, while also visualizing and explaining the results via interactive dashboards.
   Looking to solve business problems using data-driven models which would help the management make informed decisions.
 
-
-
 content:
   - title: Technical Skills
     layout: list
     content:
       - layout: left
         sub_title: >
-          Programming Languages : 
+          Programming Languages :
         description: |
-          R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark
+          R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark , GIT
       - layout: left
         sub_title: >
-          Web Development : 
+          Web Development :
         description: |
           Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
       - layout: left
         sub_title: >
-          Machine Learning Technologies : 
+          Machine Learning Technologies :
         description: |
           Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
-          PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , SHAP, LIME , Dask
+          PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , BLOOM , SHAP, LIME
       - layout: left
         sub_title: >
-          Libraries and API:  
+          Libraries and API:
         description: |
           Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
-          Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , IBM Watson
+          Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , Dask , IBM Watson , Discord
       - layout: left
         sub_title: >
-          Other Skills  :  
+          Other Skills  :
         description: |
-          MATLAB ,  Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , Regression Analysis, Docker , 
-          Probability and Statistics , Big Data , MongoDb , Data visualization , EDA , Analytics
-
+          MATLAB , Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , 
+          Regression Analysis, Docker , MongoDB , EDA , Google Analytics
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Open Domain Chatbot
+        link: https://github.com/Nakul24-1/Mental-Health-Cloud
+        link_text: Github page for project
+        additional_links:
+          - title: Github page for project
+            icon: fab fa-github
+            url: https://github.com/Nakul24-1/Mental-Health-Cloud
+
+        description: | # this will include new lines to allow paragraphs
+          - Developed an open domain DialoGPT based chatbot fine-tuned on a multilingual conversation data in Hindi and English 
+          - The bot is scalable, can chat with multiple users concurrently while maintaining separate chat history for customized replies 
+          - Deployed the discord bot on Heroku and used Accelerated Inference API for generating responses with perplexity of 3.21
+
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Mental Health Analysis
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
-          - title:  Github page for project 
+          - title: Github page for project
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        
+
         description: | # this will include new lines to allow paragraphs
           - Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
           - Hosted the streamlit application on AWS as containers using ECS and Load Balancer which was secured using AWS Cognito 
           - Built a pipeline that takes user input from front-end and generates the predicted output in less than 1 ms
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Emotion Cause Recognition
         link: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
         link_text: Analysis-of-Emotion-Cause
         additional_links:
-          - title:  Analysis-of-Emotion-Cause
+          - title: Analysis-of-Emotion-Cause
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
-        
+
         description: | # this will include new lines to allow paragraphs
           - Developed a RoBERTa and SpanBERT based question answering models (Available on Huggingface) to extract the emotion cause in each statement 
           - Performed exploratory data analysis in python to improve the explanation model by eliminating issues like class imbalance 
           - Presented the models as an alternative to SHAP and was proven better statistically using metrics like IoU
 
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Chatbot Dining Concierge 
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Chatbot Dining Concierge
         link: https://github.com/Nakul24-1/Mental-Health-Cloud
         link_text: Github page for project
         additional_links:
-          - title:  Github page for project 
+          - title: Github page for project
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        
+
         description: | # this will include new lines to allow paragraphs
           - Developed a chatbot which recommends restaurant based on user inputs like preferred cuisine and locality 
           - Collected restaurant data from Yelp API and stored it in DynamoDB and Open Search (Elastic Search) 
           - The recommendation system sends an E-Mail using SNS suggesting 5 restaurants which satisfy the user preferences
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Personality Prediction using Deep Learning
         additional_links:
-          - title:  Nakul24-1/Personality-Prediction 
+          - title: Nakul24-1/Personality-Prediction
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Personality-Prediction
-        
+
         description: | # this will include new lines to allow paragraphs
           - Developed an application that uses Text and Audio/Video to analyze a person's personality by applying transfer learning 
           - Tested the model on Essays dataset and achieved the best accuracy till date along with real-world data collected via survey 
           - Prepared a Dashboard to visualize the prediction and present analysis by describing each chart to explain the AI results
 
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                        # other value (or no value) means no border will be displayed
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
         title: Facial Expression Recognition with Keras
 
         additional_links:
-          - title:  Link Unavailable  
+          - title: Link Unavailable
             icon: fab fa-github
             url: https://github.com/Nakul24-1/Mental-Health-Cloud
-        
+
         description: | # this will include new lines to allow paragraphs
           - Detected and Classified faces into 7 different categories like Angry, Sad, Fear etc using CNN and OpenCV 
           - Developed a webpage using Flask to use webcam feed as input and generate live output serving the prediction of the emotion in real time on the web interface
-
 
   - title: Experience
     layout: list
@@ -181,7 +199,7 @@ content:
         caption: March 2020 - March 2021
         description: | # this will include new lines to allow paragraphs
           Incorporated Twitter and cover letter data for personality analysis of job applicants to aid human resources department in 
-          elimination of unsuitable candidates based on personality traits 
+          elimination of unsuitable candidates based on personality traits
 
   - title: Education
     layout: list
@@ -193,7 +211,7 @@ content:
         quote: >
           Relevant Courses
         description: | # this will include new lines to allow paragraphs
-          Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization 
+          Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization , Data Science for Business
       - layout: left
         title: Narsee Monjee Institute of Management Studies (NMIMS)
         sub_title: BTech (Hons), Computer Engineering
@@ -202,7 +220,7 @@ content:
           Relevant Courses
         description: | # this will include new lines to allow paragraphs
           Probability and Statistics , Business Visualization , Human Resource Management , Data Mining ,
-          Predictive Modelling , Artificial Intelligence , Operations Research , Image Processing , and Database Management Systems 
+          Predictive Modelling , Artificial Intelligence , Operations Research , Image Processing , and Database Management Systems
 
 # Footer
 footer_show_references: false
@@ -217,17 +235,18 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
