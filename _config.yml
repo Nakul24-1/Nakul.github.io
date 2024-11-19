@@ -66,161 +66,119 @@ content:
         sub_title: >
           Programming Languages :
         description: |
-          R , Python , Java , SQL , C++ , HTML , CSS , Hadoop, Spark , GIT
+          R, Python, SQL, C++, Hadoop, Spark, Git, Java, Solidity, MATLAB, SAS
       - layout: left
         sub_title: >
           Web Development :
         description: |
-          Bootstrap , JavaScript , D3.js , Flask , Dash , Streamlit
+          HTML, CSS, Bootstrap, JavaScript, D3.js, Flask, Streamlit
       - layout: left
         sub_title: >
           Machine Learning Technologies :
         description: |
-          Regression (Ridge and Lasso, Decision Trees , Bagging , Boosting , Random Forests , SVM , KNN , K-Means ,
-          PCA , t-SNE , Neural Networks (CNN,RNN,LSTM ,GAN), BERT , RoBERTa , BLOOM , SHAP, LIME
+          Supervised Learning, Unsupervised Learning, Reinforcement Learning, PCA, t-SNE, Neural Networks (CNN, RNN, LSTM, GAN), Large Language Models, BERT, T5, LLaMa, SHAP, LIME
       - layout: left
         sub_title: >
           Libraries and API:
         description: |
-          Pandas , Numpy , Scipy , OpenCV , Scikit-learn , Matplotlib , Seaborn , Altair , Beautiful Soap, 
-          Plotly , Tweepy , nltk , dplyr , ggplot, caret , tidyr , TensorFlow , PyTorch , Keras , Dask , IBM Watson , Discord
+          Pandas, Numpy, Scipy, OpenCV, Scikit-learn, Beautiful Soap, TensorFlow, PyTorch, Keras, MySQL
       - layout: left
         sub_title: >
           Other Skills  :
         description: |
-          MATLAB , Microsoft Excel , SAS , StarUML , Android Studio , Flutter , AWS , Google Colab , ETL , 
-          Regression Analysis, Docker , MongoDB , EDA , Google Analytics
+          Microsoft Excel, AWS, Azure, ETL pipelines, Regression Analysis, Docker, MongoDB, EDA, Google Analytics, Named Entity Recognition (NER), Data Mining, MapReduce, DynamoDB
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Open Domain Chatbot
-        link: https://github.com/Nakul24-1/Mental-Health-Cloud
-        link_text: Github page for project
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
-
-        description: | # this will include new lines to allow paragraphs
-          - Developed an open domain DialoGPT based chatbot fine-tuned on a multilingual conversation data in Hindi and English 
-          - The bot is scalable, can chat with multiple users concurrently while maintaining separate chat history for customized replies 
-          - Deployed the discord bot on Heroku and used Accelerated Inference API for generating responses with perplexity of 3.21
-
+        border: weak
+        title: Systematic Trading of Cryptocurrencies
+        description: |
+          - Devised a pairs trading strategy for cryptocurrencies by identifying stationary pairs through statistical tests.
+          - Implemented risk management techniques and optimized overall portfolio performance which resulted in a Sharpe ratio of 6.15.
+          - Engineered a simple Random Forest model, accessible at https://nakul24-pairs-crypto.streamlit.app/Random_Forest.
       - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Mental Health Analysis
-        link: https://github.com/Nakul24-1/Mental-Health-Cloud
-        link_text: Github page for project
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
-
-        description: | # this will include new lines to allow paragraphs
-          - Led a team to deploy a real-time analytics dashboard which predicts the current mental state and displays the user history 
-          - Hosted the streamlit application on AWS as containers using ECS and Load Balancer which was secured using AWS Cognito 
-          - Built a pipeline that takes user input from front-end and generates the predicted output in less than 1 ms
+        border: weak
+        title: Predicting M&A targets for abnormal portfolio returns
+        description: |
+          - Built a predictive model for Mergers and Acquisitions (M&A) target identification, achieving an impressive ROC AUC of 0.83 in predicting target companies to produce an abnormal return for investors.
+          - Achieved 36.6% F1 score improvement by engineering features leveraging data collected using API.
+          - Recommended investment strategies to generate a cumulative profit of 66% over 2.5 years from Jan 2020 till 21st Nov 2022.
       - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Emotion Cause Recognition
-        link: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
-        link_text: Analysis-of-Emotion-Cause
-        additional_links:
-          - title: Analysis-of-Emotion-Cause
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Analysis-of-Emotion-Cause
-
-        description: | # this will include new lines to allow paragraphs
-          - Developed a RoBERTa and SpanBERT based question answering models (Available on Huggingface) to extract the emotion cause in each statement 
-          - Performed exploratory data analysis in python to improve the explanation model by eliminating issues like class imbalance 
-          - Presented the models as an alternative to SHAP and was proven better statistically using metrics like IoU
-
+        border: weak
+        title: YC Chatbot
+        description: |
+          - Developed a multilingual DialoGPT-based language model built using conversation data that includes Hindi and English.
+          - Designed a discord bot which utilizes the model and deployed it using Heroku and Accelerated Inference API to generate responses with a low perplexity score of 3.21.
+          - Deployed a scalable conversational AI, chat with multiple users concurrently and provides customized responses to every user.
       - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Chatbot Dining Concierge
-        link: https://github.com/Nakul24-1/Mental-Health-Cloud
-        link_text: Github page for project
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
-
-        description: | # this will include new lines to allow paragraphs
-          - Developed a chatbot which recommends restaurant based on user inputs like preferred cuisine and locality 
-          - Collected restaurant data from Yelp API and stored it in DynamoDB and Open Search (Elastic Search) 
-          - The recommendation system sends an E-Mail using SNS suggesting 5 restaurants which satisfy the user preferences
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Personality Prediction using Deep Learning
-        additional_links:
-          - title: Nakul24-1/Personality-Prediction
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Personality-Prediction
-
-        description: | # this will include new lines to allow paragraphs
-          - Developed an application that uses Text and Audio/Video to analyze a person's personality by applying transfer learning 
-          - Tested the model on Essays dataset and achieved the best accuracy till date along with real-world data collected via survey 
-          - Prepared a Dashboard to visualize the prediction and present analysis by describing each chart to explain the AI results
-
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Facial Expression Recognition with Keras
-
-        additional_links:
-          - title: Link Unavailable
-            icon: fab fa-github
-            url: https://github.com/Nakul24-1/Mental-Health-Cloud
-
-        description: | # this will include new lines to allow paragraphs
-          - Detected and Classified faces into 7 different categories like Angry, Sad, Fear etc using CNN and OpenCV 
-          - Developed a webpage using Flask to use webcam feed as input and generate live output serving the prediction of the emotion in real time on the web interface
+        border: weak
+        title: Panacea – a mental health analysis tool
+        description: |
+          - Led development of NLP-based real-time analytics dashboard predicting probabilities of depression and anxiety, offering vital insights into user's mental state.
+          - Hosted the streamlit application as containers using ECS and Load Balancer which was secured using AWS Cognito.
+          - Utilized Lambda and API Gateway to connect the frontend with the S3 bucket and Sagemaker Endpoint.
 
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Dhandhania Infotech
-        sub_title: Data Intern
-        caption: March 2020 - March 2021
-        description: | # this will include new lines to allow paragraphs
-          Incorporated Twitter and cover letter data for personality analysis of job applicants to aid human resources department in 
-          elimination of unsuitable candidates based on personality traits
+        title: SchoolJoy, New York
+        sub_title: AI Engineer
+        caption: August 2023 – Present
+        description: |
+          - Designed and deployed a career guidance chatbot anticipated to provide real-time, tailored career advice to students and improve engagement with educational resources.
+          - Developed and implemented a suite of AI-driven applications for educators and administrators, enhancing user experience by enabling the creation, launch, and use of educational apps through an intuitive interface.
+          - Orchestrated deployment pipelines on Azure, leveraging Docker, Azure Kubernetes Service (AKS), and FastAPI, which established a robust, scalable environment for continuous integration and deployment of AI applications.
+          - Innovated "Quests AI," a cutting-edge tool designed to autonomously generate adaptive learning quests for students, aiming to personalize education and improve learning outcomes.
+      - layout: left
+        title: NYU Vertically Integrated Projects (VIP), New York
+        sub_title: Lead Researcher (Merger & Acquisition Outcome Prediction)
+        caption: August 2022 – May 2023
+        description: |
+          - Successfully obtained data from various sources including Refinitiv, Bloomberg and Wikidata to support research objectives.
+          - Led training and evaluation of the new GraphSAGE model (Refinitiv), resulting in 5 percent increase in performance compared to the original Wikidata model in predicting probability of M&A activity between two companies.
+          - Facilitated regular team meetings, fostering a platform for brainstorming, problem-solving, and progress updates, resulting in enhanced collaboration among team members.
+      - layout: left
+        title: Dhandhania Infotech Pvt Ltd, India
+        sub_title: Data Scientist
+        caption: March 2020 – March 2021
+        description: |
+          - Prepared interactive dashboard to visualize applicant personality traits, aiding HR team in eliminating unsuitable candidates.
+          - Designed and performed A/B tests to check the effectiveness of prediction models and t-tests to check the significance of results.
 
   - title: Education
     layout: list
     content:
       - layout: left
-        title: New York University, Tandon School of Engineering, New York
-        sub_title: Masters of Science, Computer Science
-        caption: 2021 - 2023
-        quote: >
-          Relevant Courses
-        description: | # this will include new lines to allow paragraphs
-          Machine Learning, Computer Vision, Big Data, Cloud Computing, Visualization , Data Science for Business
+        title: New York University, Tandon School of Engineering, NY
+        sub_title: Master of Science in Computer Science, GPA: 3.83
+        caption: 2021 – 2023
+        description: |
+          Relevant Coursework: Data Science for Business, Big Data, Computer Vision, Cloud Computing, Blockchain, Systematic Investing
       - layout: left
-        title: Narsee Monjee Institute of Management Studies (NMIMS)
-        sub_title: BTech (Hons), Computer Engineering
-        caption: 2017 - 2021
-        quote: >
-          Relevant Courses
-        description: | # this will include new lines to allow paragraphs
-          Probability and Statistics , Business Visualization , Human Resource Management , Data Mining ,
-          Predictive Modelling , Artificial Intelligence , Operations Research , Image Processing , and Database Management Systems
+        title: Narsee Monjee Institute of Management Studies (NMIMS), Mumbai
+        sub_title: Bachelor of Technology in Computer Engineering (Hons)
+        caption: 2017 – 2021
+        description: |
+          Relevant Coursework: Probability and Statistics, Business Visualization, Predictive Modelling, Artificial Intelligence, Operations Research, and Database Management Systems, Data Structures and Algorithms
+
+  - title: Courses and Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Minors in Machine Learning and Data Analytics
+        description: |
+          2-year minor degree in collaboration with NMIMS, Coursera and IBM
+      - layout: left
+        title: CS50 AI
+        description: |
+          AI online certification course on EdX | Harvard University
+      - layout: left
+        title: Analytics Edge
+        description: |
+          online course on EdX | Massachusetts Institute of Technology
 
 # Footer
 footer_show_references: false
